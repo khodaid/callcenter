@@ -41,7 +41,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Memadamkan Kebakaran" />
+                    android:text="Pencegahan, pengendalian, pemadaman, penyelamatan dan penanganan bahan berbahaya dan beracun kebakaran dalam daerah kabupaten/kota \n \n Inpeksi peralatan proteksi kebakaran \n\n Investigasi kejadian kebakaran \n\n pemberdayanan masyarakat dalam pencegahaan kebakaran" />
 
             </LinearLayout>
 
