@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basarnas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginVertical="10dp"
+            android:src="@drawable/basarnas" />
+
+        <LinearLayout
+            android:layout_width="421dp"
+            android:layout_height="266dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/tugasPemadam"
+                android:layout_width="421dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:text="Tugas Basarnas"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textFontWeight="@integer/material_motion_duration_long_1"
+                android:textSize="60px" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="222dp"
+                android:layout_weight="1"
+                android:text="Salah satu tugas utama Badan SAR Nasional (Basarnas) adalah pencarian dan pertolongan, penyelamatan, serta evakuasi \nkepada masyarakat dalam sebuah musibah secara andal, efektif,\ncepat, efisien, dan aman."
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/greenCall"
+                android:text="CALL"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="56dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
