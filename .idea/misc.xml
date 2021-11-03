@@ -9,12 +9,12 @@
         <entry key="..\:/Kuliah/callcenter/app/src/main/res/layout/activity_bnpb.xml" value="0.22552083333333334" />
         <entry key="..\:/Kuliah/callcenter/app/src/main/res/layout/activity_kepolisan.xml" value="0.2" />
         <entry key="..\:/Kuliah/callcenter/app/src/main/res/layout/activity_kepolisian.xml" value="0.22552083333333334" />
-        <entry key="..\:/Kuliah/callcenter/app/src/main/res/layout/activity_pemadam.xml" value="0.13360507246376813" />
+        <entry key="..\:/Kuliah/callcenter/app/src/main/res/layout/activity_pemadam.xml" value="0.264" />
         <entry key="..\:/Kuliah/callcenter/app/src/main/res/layout/activity_polisi.xml" value="0.264" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
